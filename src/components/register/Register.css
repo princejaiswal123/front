@@ -1,0 +1,219 @@
+.parent-container {
+  background-color: #f2f2f2;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-container {
+  width: 60%;
+  height: 100%;
+  background-color: #17a2b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-register {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.inner-container {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  width: 100%;
+  height: fit-content;
+  padding: 0 5rem;
+}
+.heading {
+  font-weight: 400;
+  font-size: 100px;
+  font-family: "Jomhuria", serif;
+  height: fit-content;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.auth {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0.3rem 5rem 0.3rem 5rem;
+  background-color: #ffffff;
+  border: 0;
+}
+.sign-btn {
+  border-radius: 0.7rem;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 50px 0px rgba(0, 25, 255, 0.24);
+}
+.sign-btn:hover {
+  background-color: #a9bcff;
+}
+.login-btn:hover {
+  border-radius: 0.7rem;
+  box-shadow: 0px 0px 50px 0px rgba(0, 25, 255, 0.24);
+  background-color: #a9bcff;
+}
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.label {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  width: 30%;
+  text-align: end;
+}
+.input {
+  border: 0;
+  width: 100%;
+  padding-top: 9px;
+  padding-bottom: 9px;
+
+  outline: none;
+}
+.form-conatiner {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 3rem auto 2rem auto;
+}
+.input-conainer {
+  padding: 2px 1rem;
+  border: 1.38px solid #d0d0d0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 5px;
+}
+.icon {
+  color: #828282;
+  cursor: pointer;
+ font-size: 20px;
+}
+.subit-btn {
+  position: relative;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #17a2b8;
+  padding: 0 9rem;
+  border: none;
+  height: 2.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  width: 100%;
+}
+.signbtn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  gap: 1.5rem;
+}
+
+.have-an-account {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  color: #828282;
+}
+.go-to-login {
+  color: #17a2b8;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #17a2b8;
+  padding: 0.5rem 9rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  background-color: white;
+}
+@media screen and (max-width: 480px) {
+  .inner-container {
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    width: 90%;
+    height: fit-content;
+    border-radius: 0.8rem;
+  }
+  .auth {
+    border-radius: 0.7rem;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0.3rem 2rem 0.3rem 2rem;
+    background-color: #ffffff;
+    border: 0;
+  }
+  .sign-btn {
+    border-radius: 0.7rem;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 50px 0px rgba(0, 25, 255, 0.24);
+  }
+  .sign-btn:hover {
+    background-color: #a9bcff;
+  }
+  .login-btn:hover {
+    border-radius: 0.7rem;
+    box-shadow: 0px 0px 50px 0px rgba(0, 25, 255, 0.24);
+    background-color: #a9bcff;
+  }
+  .btn-container {
+    gap: 10px;
+  }
+  .subit-btn {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0.5rem 5rem;
+    border-radius: 0.5rem;
+  }
+  .input-conainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    gap: 0.5rem;
+  }
+  .label {
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    text-align: start;
+  }
+  .input {
+    width: 100%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  .form-conatiner {
+    width: 90%;
+    gap: 0.8rem;
+    margin: 2rem auto 1rem auto;
+  }
+}

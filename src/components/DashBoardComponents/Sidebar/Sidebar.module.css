@@ -1,0 +1,87 @@
+
+.outerSidebar {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 2rem;
+    border-right-width: 2px;
+    border-right-color: #EDF5FE;
+    /* border: 1px solid red; */
+  }
+  .innderSidebar {
+    /* border: 1px solid green; */
+    font-family: 'Poppins', sans-serif;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    color: #707070;
+  }
+  .proClass {
+    font: 600 1rem/1.5 'Poppins', sans-serif; 
+    color: #000;
+    text-align: center;
+    padding: 0.625rem 0;
+    cursor: pointer;
+    display: flex; 
+    align-items: center; 
+    gap: 1rem;
+    justify-content: center; 
+  }
+  .linkClass {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.625rem 0; 
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .logout {
+    padding-bottom: 2rem;
+    font-size: 1rem; 
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600; 
+    color: #CF3636; 
+    width: 100%; 
+    text-align: center; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; 
+  }
+  .text{
+    font-size: 1.25rem;
+  }
+  .icons{
+    /* border: 1px solid red; */
+    width: 30px;
+  }
+  .linkText{
+    /* border: 1px solid red; */
+    width: 50%;
+    text-align: start;
+  }
+  .flexCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.processingText {
+  color: white;
+  font-weight: 500; 
+  font-size: 1.125rem; 
+}
+.circularProgress {
+  color: white !important;
+}
+
+
+
+  
+  
+  

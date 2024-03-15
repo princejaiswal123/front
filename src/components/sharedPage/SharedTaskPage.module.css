@@ -1,0 +1,233 @@
+.mainOuterCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* border: 1px solid red; */
+}
+.outerPro{
+position: absolute;
+left: 2rem;
+top: 1rem;
+}
+.maincard{
+    border: 2px solid #EDF5FE;
+    margin-top: 5rem;
+    background-color: white;
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    /* background-color: red; */
+    width: 40%;
+    height: 40%;
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.textpriority{
+    color: #707070;
+    font-size: 12px;
+    font-weight: 500;
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    /* background-color: red; */
+}
+.pricontainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.arrowcont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 2rem;
+}
+.checkcont{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #E2E2E2;
+    border-radius: 6px;
+    padding: 4px 5px;
+}
+.checklist{
+    font-size: 17px;
+    font-weight: 500;
+}
+.maincheckcont{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* border: 1px solid green; */
+    max-height: 200px;
+    overflow-y: scroll;
+}
+.maincheckcont::-webkit-scrollbar {
+    width: 5px; /* Set the width of the scrollbar */
+  }
+  
+  .maincheckcont::-webkit-scrollbar-track {
+    background: transparent; /* Set the background color of the scrollbar track */
+  }
+  
+  .maincheckcont::-webkit-scrollbar-thumb {
+    background: #E2E2E2; /* Set the color of the scrollbar thumb */
+    border-radius: 5px; /* Set the border radius of the scrollbar thumb */
+  }
+  .proClass {
+    font: 600 1rem/1.5 'Poppins', sans-serif; 
+    color: #000;
+    text-align: center;
+    padding: 0.625rem 0;
+    cursor: pointer;
+    display: flex; 
+    align-items: center; 
+    gap: 1rem;
+    justify-content: center; 
+  }
+  .text{
+    font-size: 1.25rem;
+  }
+
+.title{
+    margin-top: 0.5rem;
+    font-weight: 500;
+    font-size: 18px;
+}
+.statuscont{
+    margin-top: 1rem;
+    display: flex;
+    /* flex-direction: column; */
+     gap: 1rem;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.statusinner{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 10px;
+    margin-top: 0.5rem;
+}
+.status{
+    font-size: 10px;
+    background-color: #dbdbdb;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.due{
+    /* background-color: #CF3636; */
+    width: fit-content;
+    font-size: 14px;
+    padding: 7px 15px;
+    border-radius: 8px;
+    color: white;
+}
+.task{
+    font-size: 14px;
+}
+.dropdownIcon{
+    background-color: #dbdbdb;
+    padding: 2px;
+    /* border: 1px solid red; */
+}
+.dropdowniconMain{
+    font-size: large;
+}
+
+.menuContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu{
+    position: relative;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menuBtnDiv {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .innerMenuDiv {
+    display: flex;
+    align-items: center;
+  }
+
+ 
+.popup {
+    z-index: 50;
+    position: absolute;
+    right: 0;
+    margin-top: 0.25rem;
+    top: 100%; 
+    width: 9rem;
+    transform-origin: top right;
+    border-bottom: 1px solid #e2e8f0;
+    border-color: #e2e8f0;
+    border-radius: 0.375rem; 
+    background-color: #ffffff; 
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05); 
+    outline: none;
+  }
+  .customPadding {
+    padding: 0.25rem;
+  }
+
+  .customStyle{
+    display: flex;
+  width: 100%;
+  align-items: center;
+  border-radius: 0.375rem; 
+  padding: 0.25rem 0.5rem; 
+  font-size: 0.875rem; 
+  font-weight: 600;
+  }
+  .dueDateText{
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+ 
+  
+  
+  @media screen and (max-width: 480px) {
+    .maincard {
+        margin-top: 5rem;
+        background-color: white;
+        padding: 3rem 2rem;
+        border-radius: 1rem;
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .maincard {
+        margin-top: 5rem;
+        background-color: white;
+        padding: 3rem 2rem;
+        border-radius: 1rem;
+        width: 70%;
+    }
+}
+
+  
+  

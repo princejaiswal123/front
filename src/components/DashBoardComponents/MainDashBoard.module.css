@@ -1,0 +1,36 @@
+.outercontainermaindashboard{
+display: flex;
+align-items: start;
+/* border: 1px solid blue; */
+width: 100%;
+}
+.innercontdashboard{
+    width: 20%;
+    height: 100%;
+/* border: 1px solid blue; */
+
+}
+
+.dashboard{
+  min-width: 80%;
+  max-width: 80%;
+  overflow-x: scroll;
+    /* width: 80%;   */
+    /* border: 1px solid green; */
+      /* border-left: 2px solid;
+    border-left-color:#EDF5FE; */
+
+
+}
+.dashboard::-webkit-scrollbar {
+  width: 2px;
+}
+
+.dashboard::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.dashboard::-webkit-scrollbar-thumb {
+  background: #e2e2e2;
+  border-radius: 5px;
+}
